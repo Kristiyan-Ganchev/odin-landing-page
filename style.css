@@ -1,0 +1,58 @@
+@font-face {
+    font-family: YakuzaFont;
+    src: url(../../Documents/fonts/edosz.ttf);
+  }
+body{
+    font-family: YakuzaFont;
+    margin: 0px;
+}
+.hero{
+    display: flex;
+    background-color: rgb(154, 21, 21);
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 200px 10px;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    align-self: flex-start;
+}
+h1{
+    margin: 0px;
+    text-align: left;
+    size: 48px;
+}
+.header{
+    background-color: rgb(193, 9, 9);
+    font-size: 24px;
+    color: #f9faf8;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:800;
+    padding:0px 200px 0px;
+}
+.headerlinks{
+    display:flex;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+li{
+    margin: 10px;
+}
+img{
+    height: 400px;
+}
+button{
+    width: 110px;
+    border-radius: 12px;
+    border: 0;
+    background-color: #f9faf8;
+    font-family: YakuzaFont;
+    
+}
